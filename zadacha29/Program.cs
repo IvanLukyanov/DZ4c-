@@ -4,30 +4,6 @@
 
 6, 1, 33 -> [1, 6, 33]*/
 
-/*Console.Write ("Введите длину массива :");
-int num = Convert.ToInt32 (Console.ReadLine ());
-int [] arrayN = new int [num];
-AddArray (arrayN);
-Console.WriteLine ("Массив до сортировки :");
-PrintArray (arrayN);
-int h = 0;
-for (int i = 0; i<arrayN.Length; i++)
-{
-    int min = i;
-    for (int j = i; j<arrayN.Length; j++)
-    {
-        if (Math.Abs (arrayN[min]) > Math.Abs (arrayN[j]))
-        {
-            h = arrayN[min];
-            arrayN [min] = arrayN[j];
-            arrayN[j] = h;               
-        }
-           
-    }
-}
-Console.WriteLine ("Массив после сортировки :");
-PrintArray (arrayN);*/
-
 int size = 8;
 int[] array = new int[size];
 
